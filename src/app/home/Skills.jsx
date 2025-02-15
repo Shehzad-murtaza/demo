@@ -3,20 +3,20 @@ import Image from "next/image";
 export default function SkillAssessment() {
   return (
     <div className="container flex justify-center items-center mx-auto px-6 md:px-12 lg:px-24 xl:px-32 py-16 h-auto">
-      <div className="grid gap-8 lg:grid-cols-2 items-center">
-        {/* Left side - Image with floating labels */}
-        <div className="relative flex justify-center">
+      <div className="grid gap-8 lg:grid-cols-2 items-center max-w-5xl w-full">
+        {/* Left side - Image */}
+        <div className="relative flex justify-center max-w-lg w-full">
           <Image
             src="/home/skills/skilltest.svg"
             alt="Skill Assessment Interface"
             width={500}
             height={400}
-            className="w-full max-w-[500px] h-auto"
+            className="w-full h-auto"
           />
         </div>
 
         {/* Right side - Content */}
-        <div className="space-y-6">
+        <div className="space-y-6 max-w-lg w-full">
           <h1 className="text-2xl md:text-3xl font-bold leading-snug">
             Create Skill Assessments and Video Interviews in Minutes
           </h1>
@@ -44,8 +44,7 @@ export default function SkillAssessment() {
             </div>
           </div>
 
-          {/* Updated Button */}
-          <button className="mt-6 ml-12 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-lg shadow-md transition-all duration-300">
+          <button className="mt-6 px-6 ml-10 py-3 bg-[#4299fe] hover:bg-[#4299fe] hover:scale-105 text-white text-lg font-semibold rounded-lg shadow-md transition-all duration-300">
             Learn More →
           </button>
         </div>
