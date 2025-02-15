@@ -10,14 +10,13 @@ export default function Home() {
   );
 }
 
-
 const HeroSection = () => {
   return (
     <section className="relative mt-[68px] h-120vh flex flex-col justify-center items-center text-center px-2 sm:px-4 md:px-6 py-10 md:py-24 lg:py-32">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/herosection/BG.svg"
+          src="/home/herosection/BG.svg"
           alt="Background"
           layout="fill"
           objectFit="cover"
@@ -45,7 +44,7 @@ const HeroSection = () => {
           </button>
           <button className="bg-white z-20 text-gray-700 hover:bg-gray-200 px-4 py-2 sm:py-3 text-sm sm:text-base font-semibold rounded-xl flex items-center gap-2 shadow-md transition-all duration-300">
             <img
-              src="/herosection/google-icon.svg"
+              src="/home/herosection/google-icon.svg"
               alt="Google"
               width="20"
               height="20"
@@ -88,25 +87,25 @@ const Plans = ({ position }) => {
       heading: "UnitedHealthcare",
       description: "Premium Insurance",
       percent: "97%",
-      image: "/herosection/UnitedHealthcare.svg",
+      image: "/home/herosection/UnitedHealthcare.svg",
     },
     {
       heading: "Humana",
       description: "Platinum Network",
       percent: "77%",
-      image: "/herosection/Hamana.svg",
+      image: "/home/herosection/Hamana.svg",
     },
     {
       heading: "Anthem Blue Cross",
       description: "SMB Global Plan",
       percent: "91%",
-      image: "/herosection/Anthem.svg",
+      image: "/home/herosection/Anthem.svg",
     },
     {
       heading: "Aetna",
       description: "Small Business Alpha",
       percent: "82%",
-      image: "/herosection/Aetna.svg",
+      image: "/home/herosection/Aetna.svg",
     },
   ];
 
@@ -138,7 +137,7 @@ const Plans = ({ position }) => {
         </div>
       </div>
       <Image
-        src="/herosection/arrow.svg"
+        src="/home/herosection/arrow.svg"
         alt="Arrow"
         width={20}
         height={20}
@@ -159,7 +158,7 @@ const HeroDark = () => {
             <div className="flex flex-col items-center text-center text-white p-6">
               <div className="mb-4">
                 <img
-                  src="/dark-hero/diamond.svg"
+                  src="/home/dark-hero/diamond.svg"
                   alt="Feature 1"
                   className="w-8 h-8"
                 />
@@ -178,7 +177,7 @@ const HeroDark = () => {
             <div className="flex flex-col items-center text-center text-white p-6">
               <div className="mb-4">
                 <img
-                  src="/dark-hero/fourdots.svg"
+                  src="/home/dark-hero/fourdots.svg"
                   alt="Feature 2"
                   className="w-8 h-8"
                 />
@@ -197,7 +196,7 @@ const HeroDark = () => {
             <div className="flex flex-col items-center text-center text-white p-6">
               <div className="mb-4">
                 <img
-                  src="/dark-hero/diamond.svg"
+                  src="/home/dark-hero/diamond.svg"
                   alt="Feature 3"
                   className="w-8 h-8"
                 />
@@ -225,7 +224,7 @@ const Top = () => {
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:gap-6 lg:gap-8 items-center justify-center">
           <div className="col-span-1 flex justify-center">
             <Image
-              src="/herosection/HamanaDark.svg"
+              src="/home/herosection/HamanaDark.svg"
               alt="Hamana"
               width={100}
               height={30}
@@ -234,7 +233,7 @@ const Top = () => {
           </div>
           <div className="col-span-1 flex justify-center">
             <Image
-              src="/herosection/AnthemDark.svg"
+              src="/home/herosection/AnthemDark.svg"
               alt="Anthem"
               width={100}
               height={30}
@@ -243,7 +242,7 @@ const Top = () => {
           </div>
           <div className="hidden sm:flex sm:col-span-1 justify-center">
             <Image
-              src="/herosection/HealthcareDark.svg"
+              src="/home/herosection/HealthcareDark.svg"
               alt="Healthcare"
               width={100}
               height={30}
@@ -252,7 +251,7 @@ const Top = () => {
           </div>
           <div className="col-span-1 flex justify-center">
             <Image
-              src="/herosection/AetnaDark.svg"
+              src="/home/herosection/AetnaDark.svg"
               alt="Aetna"
               width={100}
               height={30}
@@ -261,7 +260,7 @@ const Top = () => {
           </div>
           <div className="col-span-1 flex justify-center">
             <Image
-              src="/herosection/CignaDark.svg"
+              src="/home/herosection/CignaDark.svg"
               alt="Cigna"
               width={100}
               height={30}
