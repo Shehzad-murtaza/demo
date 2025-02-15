@@ -10,131 +10,6 @@ export default function Home() {
   );
 }
 
-const HeroDark = () => {
-  return (
-    <>
-      <Top />
-      <div className="bg-dark-blue relative -top-6 min-h-[48vh] py-12 px-4">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* First Section */}
-            <div className="flex flex-col items-center text-center text-white p-6">
-              <div className="mb-4">
-                <img
-                  src="/dark-hero/diamond.svg"
-                  alt="Feature 1"
-                  className="w-8 h-8"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
-                All you need at one Platform
-              </h3>
-              <p className="text-gray-300 h-24 text-sm">
-                With the help of our generated skill assessments, video
-                interviews and pre-screening chatbots you can easily access
-                technical and soft skills of a candidate.
-              </p>
-            </div>
-
-            {/* Second Section */}
-            <div className="flex flex-col items-center text-center text-white p-6">
-              <div className="mb-4">
-                <img
-                  src="/dark-hero/fourdots.svg"
-                  alt="Feature 2"
-                  className="w-8 h-8"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
-                No More Hiring Errors
-              </h3>
-              <p className="text-gray-300 h-24 text-sm">
-                It's better to hire the best by using job simulation assessments
-                rather than making poor decisions and spending money on hiring.
-                Our platform ensures accuracy.
-              </p>
-            </div>
-
-            {/* Third Section */}
-            <div className="flex flex-col items-center text-center text-white p-6">
-              <div className="mb-4">
-                <img
-                  src="/dark-hero/diamond.svg"
-                  alt="Feature 3"
-                  className="w-8 h-8"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
-                Cheat Proof Assessments
-              </h3>
-              <p className="text-gray-300 h-24 text-sm">
-                Presenting you the most updated features which can ensure
-                credibility of candidates assessments, including ChatGPT
-                detection and anti-cheating features.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-const Top = () => {
-  return (
-    <div className="bg-light-blue w-auto rounded-t-[2rem] relative -top-6 border-gray-600 border-[1px] flex items-center justify-center px-3 py-4">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:gap-6 lg:gap-8 items-center justify-center">
-          <div className="col-span-1 flex justify-center">
-            <Image
-              src="/herosection/HamanaDark.svg"
-              alt="Hamana"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center">
-            <Image
-              src="/herosection/AnthemDark.svg"
-              alt="Anthem"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
-          </div>
-          <div className="hidden sm:flex sm:col-span-1 justify-center">
-            <Image
-              src="/herosection/HealthcareDark.svg"
-              alt="Healthcare"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center">
-            <Image
-              src="/herosection/AetnaDark.svg"
-              alt="Aetna"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center">
-            <Image
-              src="/herosection/CignaDark.svg"
-              alt="Cigna"
-              width={100}
-              height={30}
-              className="object-contain"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
 
 const HeroSection = () => {
   return (
@@ -269,6 +144,132 @@ const Plans = ({ position }) => {
         height={20}
         className="opacity-70 hover:opacity-100 transition-opacity"
       />
+    </div>
+  );
+};
+
+const HeroDark = () => {
+  return (
+    <>
+      <Top />
+      <div className="bg-dark-blue relative -top-6 min-h-[48vh] py-12 px-4">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* First Section */}
+            <div className="flex flex-col items-center text-center text-white p-6">
+              <div className="mb-4">
+                <img
+                  src="/dark-hero/diamond.svg"
+                  alt="Feature 1"
+                  className="w-8 h-8"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
+                All you need at one Platform
+              </h3>
+              <p className="text-gray-300 h-24 text-sm">
+                With the help of our generated skill assessments, video
+                interviews and pre-screening chatbots you can easily access
+                technical and soft skills of a candidate.
+              </p>
+            </div>
+
+            {/* Second Section */}
+            <div className="flex flex-col items-center text-center text-white p-6">
+              <div className="mb-4">
+                <img
+                  src="/dark-hero/fourdots.svg"
+                  alt="Feature 2"
+                  className="w-8 h-8"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
+                No More Hiring Errors
+              </h3>
+              <p className="text-gray-300 h-24 text-sm">
+                It's better to hire the best by using job simulation assessments
+                rather than making poor decisions and spending money on hiring.
+                Our platform ensures accuracy.
+              </p>
+            </div>
+
+            {/* Third Section */}
+            <div className="flex flex-col items-center text-center text-white p-6">
+              <div className="mb-4">
+                <img
+                  src="/dark-hero/diamond.svg"
+                  alt="Feature 3"
+                  className="w-8 h-8"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-3 whitespace-nowrap">
+                Cheat Proof Assessments
+              </h3>
+              <p className="text-gray-300 h-24 text-sm">
+                Presenting you the most updated features which can ensure
+                credibility of candidates assessments, including ChatGPT
+                detection and anti-cheating features.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const Top = () => {
+  return (
+    <div className="bg-light-blue w-auto rounded-t-[2rem] relative -top-6 border-gray-600 border-[1px] flex items-center justify-center px-3 py-4">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:gap-6 lg:gap-8 items-center justify-center">
+          <div className="col-span-1 flex justify-center">
+            <Image
+              src="/herosection/HamanaDark.svg"
+              alt="Hamana"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center">
+            <Image
+              src="/herosection/AnthemDark.svg"
+              alt="Anthem"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
+          </div>
+          <div className="hidden sm:flex sm:col-span-1 justify-center">
+            <Image
+              src="/herosection/HealthcareDark.svg"
+              alt="Healthcare"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center">
+            <Image
+              src="/herosection/AetnaDark.svg"
+              alt="Aetna"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
+          </div>
+          <div className="col-span-1 flex justify-center">
+            <Image
+              src="/herosection/CignaDark.svg"
+              alt="Cigna"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
