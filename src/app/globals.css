@@ -5,3 +5,25 @@
   padding: 0;
   margin: 0;
 }
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6; /* Track background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(54 113 103); /* Scrollbar color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(54 113 103); /* Hover effect */
+}
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
