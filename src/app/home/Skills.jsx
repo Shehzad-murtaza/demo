@@ -23,22 +23,38 @@ export default function SkillAssessment() {
 
           <div className="space-y-6">
             <div className="flex gap-3 items-start">
-              <Image src="/home/skills/img.svg" alt="Assessment Icon" width={40} height={40} />
+              <Image
+                src="/home/skills/img.svg"
+                alt="Assessment Icon"
+                width={40}
+                height={40}
+              />
               <div>
-                <h3 className="text-lg md:text-xl font-semibold">Assess Both Hard and Soft Skills</h3>
+                <h3 className="text-lg md:text-xl font-semibold">
+                  Assess Both Hard and Soft Skills
+                </h3>
                 <p className="text-gray-700">
-                  With AI-powered assessments, video interviews, and chatbots, evaluate candidates' technical and 
-                  cognitive skills effectively.
+                  With AI-powered assessments, video interviews, and chatbots,
+                  evaluate candidates' technical and cognitive skills
+                  effectively.
                 </p>
               </div>
             </div>
 
             <div className="flex gap-3 items-start">
-              <Image src="/home/skills/img2.svg" alt="Library Icon" width={40} height={40} />
+              <Image
+                src="/home/skills/img2.svg"
+                alt="Library Icon"
+                width={40}
+                height={40}
+              />
               <div>
-                <h3 className="text-lg md:text-xl font-semibold">Select from Library or Create Your Own</h3>
+                <h3 className="text-lg md:text-xl font-semibold">
+                  Select from Library or Create Your Own
+                </h3>
                 <p className="text-gray-700">
-                  Choose from 1000+ curated assessments or design custom ones to fit your hiring needs.
+                  Choose from 1000+ curated assessments or design custom ones to
+                  fit your hiring needs.
                 </p>
               </div>
             </div>
